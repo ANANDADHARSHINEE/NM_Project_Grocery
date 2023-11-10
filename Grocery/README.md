@@ -49,18 +49,18 @@ Now you can run "npm start" in the terminal and the application should work.
 ## Technology
 
 The application is built with:
+#Frontend
+-React.js 
+-Bootstrap version 4.4.1
+-FontAwesome version 5.13.0
+#Backend
+-Node.js version 12.16.3
+-MongoDB version 4.2.0
+-Express version 4.16.1
+-Passport: used for authentication
+-Express Validator: used for form validation
+![image](https://github.com/Grocery-management/NM_Project_Grocery/assets/98686309/66a4e401-5929-441e-9e8c-704a4997e369)
 
-- Node.js version 12.16.3
-- MongoDB version 4.2.0
-- Express version 4.16.1
-- Bootstrap version 4.4.1
-- FontAwesome version 5.13.0
-- Stripe API v3: used for payment in the checkout page
-- Mapbox API: used to show the map in the about us page
-- AdminBro: used and customized to implement the admin panel
-- Nodemailer: used to send emails from the contact us form
-- Passport: used for authentication
-- Express Validator: used for form validation
 
 ## Features
 
