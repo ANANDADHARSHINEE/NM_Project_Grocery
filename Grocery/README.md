@@ -50,7 +50,7 @@ The application is built with:
 
 -FontAwesome version 5.13.0
 
- Backend
+  Backend
 
 -Node.js version 12.16.3
 
@@ -61,8 +61,6 @@ The application is built with:
 -Passport: used for authentication
 
 -Express Validator: used for form validation
-
-![image](https://github.com/Grocery-management/NM_Project_Grocery/assets/98686309/66a4e401-5929-441e-9e8c-704a4997e369)
 
 
 ## Features
