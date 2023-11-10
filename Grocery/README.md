@@ -16,7 +16,7 @@ NOTE: Please read the RUN section before opening an issue.
 
 ## Demo
 
-![screenshot](screenshot.png)
+![screenshot](Screenshot.jpg)
 
 The application is deployed to Heroku and can be accessed through the following link:
 
