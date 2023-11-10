@@ -1,4 +1,4 @@
-#### Grocery
+## Grocery
 ## Table of contents
 
 - [Introduction](#introduction)
@@ -50,7 +50,7 @@ The application is built with:
 
 -FontAwesome version 5.13.0
 
-# Backend
+ Backend
 
 -Node.js version 12.16.3
 
