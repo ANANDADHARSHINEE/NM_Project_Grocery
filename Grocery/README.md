@@ -41,16 +41,27 @@ Now you can run "npm start" in the terminal and the application should work.
 ## Technology
 
 The application is built with:
-# Frontend
--React.js 
+
+ Frontend
+  
+-React.js
+
 -Bootstrap version 4.4.1
+
 -FontAwesome version 5.13.0
+
 # Backend
+
 -Node.js version 12.16.3
+
 -MongoDB version 4.2.0
+
 -Express version 4.16.1
+
 -Passport: used for authentication
+
 -Express Validator: used for form validation
+
 ![image](https://github.com/Grocery-management/NM_Project_Grocery/assets/98686309/66a4e401-5929-441e-9e8c-704a4997e369)
 
 
