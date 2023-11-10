@@ -18,14 +18,6 @@ NOTE: Please read the RUN section before opening an issue.
 
 ![screenshot](Screenshot.jpg)
 
-The application is deployed to Heroku and can be accessed through the following link:
-
-[BestBags on Heroku](https://best-bags.herokuapp.com/)
-
-The website resembles a real store and you can add products to your cart and pay for them. If you want to try the checkout process, you can use the dummy card number provided by stripe for testing which is 4242 4242 4242 4242 with any expiration date, CVC, and zip codes. Please <u><b>DO NOT</b></u> provide real card number and data.
-
-In order to access the admin panel on "/admin" you need to provide the admin email and password.
-
 ## Run
 
 To run this application, you have to set your own environmental variables. For security reasons, some variables have been hidden from view and used as environmental variables with the help of dotenv package. Below are the variables that you need to set in order to run the application:
@@ -49,11 +41,11 @@ Now you can run "npm start" in the terminal and the application should work.
 ## Technology
 
 The application is built with:
-#Frontend
+# Frontend
 -React.js 
 -Bootstrap version 4.4.1
 -FontAwesome version 5.13.0
-#Backend
+# Backend
 -Node.js version 12.16.3
 -MongoDB version 4.2.0
 -Express version 4.16.1
