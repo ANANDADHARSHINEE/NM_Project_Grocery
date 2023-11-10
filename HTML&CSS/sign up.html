@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>NMKK Grocery Store | Sign Up</title>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/91abd10b8f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="stylesheet/style.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Mapbox -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="page-container">
+      <div id="content-wrap">
+    <div class="row nav-container mx-auto">
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="search-container">
+          <form class="form-inline" action="/products/search" method="GET">
+            <input
+              class="search-input"
+              type="search"
+              placeholder="Search"
+              name="search"
+            />
+          </form>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12 logo-container">
+        <a href="/">
+          <img class="logo-img img-fluid" src="images/shop-icon.png" alt="logo" />
+          <h4 class="logo-title">NMKK Grocery Store</h4>
+        </a>
+      </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12 right-nav">
+        <ul>
+          <li>
+            <a href="/shopping-cart">
+              <i class="fas fa-shopping-cart"></i> 
+              <span class="badge badge-pill badge-info bg-success">0</span>
+              
+            </a>
+          </li>
+          
+          <li>
+            <a href="/user/signup"> Sign Up</a>
+          </li>
+          <li>
+            <a href="/user/signin"> Sign In</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+ <nav class="navbar navbar-expand-md navbar-custom navbar-dark bg-success">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse mx-auto order-0" id="navbarNav">
+    <ul class="navbar-nav mx-auto">
+      <li 
+          class="nav-item"
+         
+      >
+        <a class="nav-link" href="/products/">All</a>
+      </li>
+
+      
+        
+          <li 
+              class="nav-item"
+             
+          >
+          <a class="nav-link" href="/products/dairy-products">Dairy Products</a>
+        </li>
+          
+          <li 
+              class="nav-item"
+             
+          >
+          <a class="nav-link" href="/products/fruits">Fruits</a>
+        </li>
+          
+          <li 
+              class="nav-item"
+             
+          >
+          <a class="nav-link" href="/products/nuts">Nuts</a>
+        </li>
+          
+          <li 
+              class="nav-item"
+             
+          >
+          <a class="nav-link" href="/products/vegetables">Vegetables</a>
+        </li>
+          
+      
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 m-auto">
+      <h1 class="mt-4 mb-4">Sign Up Page</h1>
+      
+      <form action="/user/signup" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="name"
+            class="form-control"
+            name="name"
+            id="name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" name="email" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            name="password"
+            id="password"
+          />
+        </div>
+        <div class="form-group">
+          <label for="password2">Verify Password</label>
+          <input
+            type="password"
+            class="form-control"
+            name="password2"
+            id="password2"
+          />
+        </div>
+        <input type="hidden" name="_csrf" value="0nagiabb-d_Qdnn4ISaL5Ck1DOhx8E6Ti4lo" />
+        <button type="submit" class="btn btn-primary button-style">
+          Sign Up
+        </button>
+        <p class="mt-3">
+          Already have an account? <a href="/user/signin"> <strong class="text-success">Sign In!</strong></a>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+
+</div>
+<footer>
+
+<section id="contact" class="mt-5">
+    <div class="row">
+        <div class="col-md-4 col-sm-12 col-xs-12 white-links">
+            <p class="footer-title">About Us</p>
+            <ul>
+                <li>
+                    <a href="/pages/about-us">About Our Store</a>
+                </li>
+                <li>
+                    <a href="/pages/contact-us">Contact Us</a>
+                </li>
+                <li>
+                    <a href="/pages/shipping-policy">Shipping Policy</a>
+                </li>
+                <li>
+                    <a href="/pages/careers">Careers</a>
+                </li>
+            </ul>  
+        </div>
+
+    <div class="col-md-6 col-sm-12 col-xs-12 white-links mb-2">
+        <p class="footer-title">Follow Us</p>
+        <a href="https://facebook.com/" target="_blank">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            Facebook
+        </a>
+          
+          <a id="profile-link" target="_blank" href="https://instagram.com/">
+           <i class="fa fa-instagram" aria-hidden="true"></i>
+            Instagram
+          </a>
+          
+         <a href="https://twitter.com/" target="_blank">
+           <i class="fa fa-twitter" aria-hidden="true"></i>
+            Twitter
+          </a>
+        
+    </div>
+      
+    </div>
+  </section>
+  
+  <section class="bottom-footer">
+    <div class="row">
+    <div class="col-12 mr-auto">
+      © NMKK 2023 **This is just a fake ecommerce website. All the products and contact details given are not real.
+    </div>
+   </div>
+  </section>
+
+</footer>
+</div>
+
+
+<script src="/javascripts/main.js"></script>
+</body>
+</html>
+
