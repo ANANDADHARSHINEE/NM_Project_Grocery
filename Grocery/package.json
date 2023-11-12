@@ -1,13 +1,13 @@
 {
   "name": "ecommerce-nodejs-website",
   "version": "1.0.0",
-  "main": "src/app.js",
+  "main": "app.js",
   "description": "A virtual ecommerce website using Node js, Express js, and Mongoose.",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "Aparna Gayathri",
+  "author": "Maryam Aljanabi",
   "license": "MIT",
   "dependencies": {
     "admin-bro": "^2.9.0",
@@ -43,6 +43,6 @@
     "session": "^0.1.0",
     "slugify": "^1.6.5",
     "stripe": "^8.219.0",
-    "styled-components": "^5.3.5"
-  }
+    "styled-components": "^5.3.5"
+  }
 }
