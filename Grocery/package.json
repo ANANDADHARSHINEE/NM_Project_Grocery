@@ -1,7 +1,7 @@
 {
   "name": "ecommerce-nodejs-website",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "src/app.js",
   "description": "A virtual ecommerce website using Node js, Express js, and Mongoose.",
   "scripts": {
     "start": "node app.js",
