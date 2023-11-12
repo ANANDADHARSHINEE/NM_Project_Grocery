@@ -22,6 +22,7 @@ NOTE: Please read the RUN section before opening an issue.
 ## Deployment
 
 The app is deployed on Render. To view the app click on the below link.
+
 https://grocery-nm.onrender.com
 
 ## Run
